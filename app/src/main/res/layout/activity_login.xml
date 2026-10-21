@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#F4EEFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="28dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="☁  YOUR LITTLE SPACE  ☁"
+            android:textColor="#8270B5"
+            android:textStyle="bold"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:text="Hello, Sunshine! 🌷"
+            android:textColor="#44365F"
+            android:textStyle="bold"
+            android:textSize="29sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="30dp"
+            android:text="Take a moment for yourself."
+            android:textColor="#776D89"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:hint="Your name"
+            android:singleLine="true"
+            android:padding="16dp"
+            android:backgroundTint="#A895D9"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="12dp"
+            android:hint="Password"
+            android:singleLine="true"
+            android:padding="16dp"
+            android:backgroundTint="#A895D9"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/loginButton"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:layout_marginTop="25dp"
+            android:text="Let's Begin  →"
+            android:textAllCaps="false"
+            android:textSize="17sp"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#8B78C6" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="Breathe in. Breathe out. Be you. ♡"
+            android:textColor="#8270B5"
+            android:textSize="13sp" />
+
+    </LinearLayout>
+</ScrollView>
